@@ -33,4 +33,5 @@ build/
 
 # Model files (keep reference but not the actual files due to size)
 vosk-model-small-fr-0.22.zip
-# Keep model.tar.gz as it's needed for the app to work 
+vosk-model-small-fr-0.22/
+# Keep model.tar.gz as it's needed for the app to work (handled with Git LFS) 
