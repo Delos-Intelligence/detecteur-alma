@@ -1,6 +1,6 @@
 # 🎙️ Détecteur ALMA - Reconnaissance Vocale Locale
 
-Une application web de reconnaissance vocale en français qui détecte le mot "ALMA" en temps réel et active un voyant LED visuel.
+Une  application web de reconnaissance vocale en français qui détecte le mot "ALMA" en temps réel et active un voyant LED visuel.
 
 ## ✨ Fonctionnalités
 
