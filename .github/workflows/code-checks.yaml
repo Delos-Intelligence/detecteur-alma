@@ -5,9 +5,9 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-  always-pass:
-    name: always-pass
+  code-checks:
+    name: code-checks
     runs-on: ubuntu-latest
     steps:
       - name: noop
-        run: echo "✅ This check always passes" && exit 0
+        run: echo "✅ code-checks init passes" && exit 0
