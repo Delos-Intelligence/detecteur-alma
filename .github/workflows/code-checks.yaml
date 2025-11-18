@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: noop
-        run: echo "✅ This check always passes" && exit 0
+        run: echo "✅ This check always passes" && exit 1
