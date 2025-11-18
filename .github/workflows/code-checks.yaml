@@ -1,0 +1,13 @@
+name: Always Pass
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  always-pass:
+    name: always-pass
+    runs-on: ubuntu-latest
+    steps:
+      - name: noop
+        run: echo "✅ This check always passes" && exit 0
